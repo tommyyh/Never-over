@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 4rem;
+  width: 100%;
+  height: 6.5rem;
+  position: absolute;
+  z-index: 500;
+
+  /* background: #0F3C69; */
+}
+
+nav li {
+  display: inline-block;
+
+  padding: 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+nav h2 {
+  font-size: 1.3rem; 
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-title {
+  text-decoration: none !important;
+}
+
+nav li:last-child {
+  padding: 0 0 0 1.25rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Landing */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 88vh;
+  position: relative;
+  padding: 0 4rem 0 14rem;
+
+  background: rgba(3, 11, 23, 0.76);
+}
+
+.landing-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 88vh;
+
+  opacity: 100%;
+  object-fit: cover;
+}
+
+main h1 {
+  /* margin: -5rem 0 0 0; */
+
+  color: #fff;
+  font-size: 3.3rem;
+}
+
+main p {
+  margin: 1.1rem 30% 0 0;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 1.02rem;
+  line-height: 1.5rem;
+}
+
+main a {
+  width: fit-content;
+  padding: 0.9rem 2.3rem;
+  margin: 1.9rem 0 0 0;
+
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 1.02rem;
+  background: #d19c16;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+
+
+/* goal */
+.goal {
+  display: grid;
+  grid-template-columns: 60% 40%;
+
+  width: 100%;
+  position: relative;
+  padding: 0 14rem;
+  margin: 6.2rem 0 0 0;
+}
+
+.goal h2 {
+  font-size: 2rem;
+  color: #11122c;
+}
+
+.goal h5 {
+  margin: 0 0 0.2rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #d19c16;
+}
+
+.goal p {
+  margin: 1rem 0 0 0;
+  font-size: 0.95rem;
+  color: #11122c;
+  line-height: 1.55rem;
+}
+
+.goal img {
+  width: 3rem;
+}
+
+
+
+
+
+/* goal */
+.dezinformace {
+  padding: 4.2rem 14rem;
+  margin: 6.5rem 0 0 0;
+
+  background: #F4F5F9;
+}
+
+.dezinformace h2 {
+  margin: 0 55% 0 0;
+  font-size: 2rem;
+  color: #11122c;
+}
+
+.dezinformace h5 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #d19c16;
+}
+
+.dezinformace p {
+  margin: 1.5rem 25% 0 0;
+  font-size: 0.95rem;
+  color: #11122c;
+  line-height: 1.55rem;
+}
+
+.points {
+  margin: 3.5rem 0 0 0;
+}
+
+.point {
+  margin: 4rem 0 0 0;
+}
+
+.point h3 {
+  width: fit-content;
+  margin: 0 0 1.44rem 0;
+  position: relative;
+
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: #11122c;
+}
+
+.point h3::after {
+  content: '';
+
+  left: 0;
+  bottom: -0.4rem;
+  width: 80%;
+  height: 0.1rem;
+  position: absolute;
+
+  background: #d19c16;
+}
+
+.point li {
+  margin: 0.72rem 0 0 0;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 0.96rem;
+}
+
+.point div {
+  margin: 0.25rem 0 0 0;
+
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+
+
+/* goal */
+.nevim {
+  padding: 0rem 14rem;
+  margin: 6.5rem 0 0 0;
+}
+
+.nevim h2 {
+  margin: 0 55% 0 0;
+  font-size: 2rem;
+  color: #11122c;
+}
+
+.nevim h5 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #d19c16;
+}
+
+.nevim p {
+  margin: 1.13rem 25% 0 0;
+  font-size: 0.95rem;
+  color: #11122c;
+  line-height: 1.4rem;
+}
+
+.nevim ul {
+  margin: 2rem 0 3rem 0;
+}
+
+.nevim li {
+  margin: 0.39rem 0 0 0;
+
+  list-style-type: none;
+  font-size: 0.89rem;
+}
+
+.nevim span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
+.check {
+  width: 100%;
+  padding: 4rem 14rem;
+  margin: 7rem 0 0 0;
+
+  background: #08254F;
+}
+
+.check h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.check1 {
+  margin: 1rem 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.check input {
+  width: 34rem;
+  height: 2.6rem;
+  padding: 0 1rem;
+
+  background: #e4efff;
+  font-family: 'Montserrat';
+  border: none;
+  font-size: 0.9rem;
+}
+
+.check button {
+  width: 8rem;
+  margin: 0 0 0 0.7rem;
+  height: 2.6rem;
+  cursor: pointer;
+  background: #d19c16;
+  font-family: 'Montserrat';
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (min-height: 1365px) and (max-height: 1366px) {
+  html {
+    font-size: 34px;
+  }
+}
+
+@media all and (min-width: 1025px) {
+  html {
+    font-size: 1vw;
+  }
+}
